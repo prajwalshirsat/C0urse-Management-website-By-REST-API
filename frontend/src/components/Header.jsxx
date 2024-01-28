@@ -1,0 +1,14 @@
+import React from 'react'
+
+export default function Header(props) {
+  return (
+    <div style={{background : "red",padding:20, width:400}}>
+      <h1> {props.title}</h1>
+      <h1>{props.name}</h1>
+    <p>{props.paragraph}</p>
+   
+    </div>
+  )
+}
+
+
